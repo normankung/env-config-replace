@@ -1,0 +1,1 @@
+FOO=6000 BAR_X=false BAR_Y=TRUE node test.js

@@ -1,0 +1,8 @@
+{
+    "foo":4000,
+    "bar":{
+        "x":true,
+        "y":"false"
+    },
+    "haa":"test"
+}
