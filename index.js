@@ -33,12 +33,25 @@ function switchToOrignalType(oConfig, eConfig) {
                 try {
                     return parseInt(eConfig, 10)
                 } catch (e) {
-                    console.log(e)
+                    console.log(e);
+                    return oConfig
                 }
             }
         case 'boolean':
             {
                 return (eConfig === 'true')
+            }
+        case 'object':
+            {
+                if (Array.isArray(oConfig)) {
+                    try {
+
+                        return JSON.parse(eConfig);
+                    } catch (e) {
+                        console.log(e);
+                        return oConfig
+                    }
+                }
             }
         default:
             {

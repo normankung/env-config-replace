@@ -1,8 +1,9 @@
 {
-    "foo":4000,
-    "bar":{
-        "x":true,
-        "y":"false"
+    "foo": 4000,
+    "bar": {
+        "x": true,
+        "y": "false"
     },
-    "haa":"test"
+    "haa": "test",
+    "arrayTest": ["a", "b"]
 }

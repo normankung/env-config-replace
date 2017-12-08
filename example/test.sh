@@ -1,1 +1,1 @@
-FOO=6000 BAR_X=false BAR_Y=TRUE node test.js
+FOO=6000 ARRAYTEST=[\"A\",\"B\"] BAR_X=false BAR_Y=TRUE node test.js
