@@ -1,13 +1,13 @@
 {
     "name": "env-config-replace",
     "version": "1.0.1",
-    "description": "Use env variables to replace default configuration",
+    "description": "Use env variables to replace default configuration, config type will switch by default config's type",
     "main": "index.js",
     "directories": {
         "example": "example"
     },
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "cd example && ./test.sh"
     },
     "repository": {
         "type": "git",

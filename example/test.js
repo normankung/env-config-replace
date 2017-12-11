@@ -1,4 +1,4 @@
 var envReplace = require('../index')
-var config = require('./testCofig')
+var config = require('./test.json')
 envReplace(config)
 console.log(config)
