@@ -1,6 +1,6 @@
 # env-config-replace
 Use env variables to replace default configuration
-Simply replace your config file with the env variables
+Simply replace your config file with the env variables, env-config will be switch to original data type by default config
 
 ## Install
 ```
