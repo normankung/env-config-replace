@@ -11,6 +11,9 @@ npm install env-config-replace
 
 Just require the package and use it as a function to parse your config file
 
+
+####Example
+
 test.json
 ```
 {
